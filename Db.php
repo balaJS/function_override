@@ -1,6 +1,7 @@
 <?php
 
 Class Db {
+	protected $conn;
 
 	public function __construct() {
 		try {
